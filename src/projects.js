@@ -32,6 +32,7 @@ const projects = [
     desc: "Three-tier Java web application with Servlets, JSP, and JDBC on Apache Tomcat. Role-based authentication backed by MySQL.",
     stack: ["Java", "MySQL", "JSP", "Servlets", "Tomcat"],
     tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/A-Three-Tier-Distributed-Web-Based-Application",
   },
 
   // ── Security & Low-level ─────────────────────────────────────────────────
@@ -62,28 +63,18 @@ const projects = [
 
   // ── ML / AI / Computer Vision ────────────────────────────────────────────
   {
-    name: "Fall Detector",
-    desc: "Computer vision system to detect falls in real-time using OpenCV and ML.",
-    stack: ["Python", "OpenCV", "ML"],
-    tag: "ml",
-  },
-  {
     name: "Face Recognition",
     desc: "Face detection and recognition system using computer vision.",
     stack: ["Python", "OpenCV"],
     tag: "ml",
-  },
-  {
-    name: "Fortnite OCR",
-    desc: "OCR tool for reading and parsing Fortnite in-game data.",
-    stack: ["Python", "OpenCV", "OCR"],
-    tag: "ml",
+    link: "https://github.com/BrandonHarrison2002/Face",
   },
   {
     name: "Speech Detection & Recognition",
-    desc: "Real-time speech detection and recognition pipeline with audio processing.",
-    stack: ["Python", "ML"],
+    desc: "Real-time speech detection and recognition pipeline that triggers an Arduino when it detects filler words.",
+    stack: ["Python", "ML", "Arduino"],
     tag: "ml",
+    link: "https://github.com/BrandonHarrison2002/speech_recognition-tazer",
   },
   {
     name: "TensorFlow Experiments",
@@ -112,12 +103,14 @@ const projects = [
     desc: "Personal resume hosted as a GitHub Pages site.",
     stack: ["HTML", "CSS"],
     tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/Resume",
   },
   {
     name: "Discord Bot (TS & Python)",
     desc: "Discord bots built in TypeScript and Python with custom commands and automations.",
     stack: ["TypeScript", "Python", "Discord.js"],
     tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/Bread",
   },
   {
     name: "Minecraft Health Monitor",
