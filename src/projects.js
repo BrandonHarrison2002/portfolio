@@ -66,12 +66,6 @@ const projects = [
   },
   // ── ML / AI / Computer Vision ────────────────────────────────────────────
   {
-    name: "Fall Detector",
-    desc: "Computer vision system to detect falls in real-time using OpenCV and ML.",
-    stack: ["Python", "OpenCV", "ML"],
-    tag: "ml",
-  },
-  {
     name: "Face Recognition",
     desc: "Face detection and recognition system using computer vision.",
     stack: ["Python", "OpenCV"],
