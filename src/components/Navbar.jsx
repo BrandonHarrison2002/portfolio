@@ -10,7 +10,6 @@ function Navbar() {
       <span className="navbar-name">Brandon Harrison</span>
       <div className="navbar-links">
         <a onClick={() => scrollTo("education")}>Education</a>
-        <a onClick={() => scrollTo("experience")}>Experience</a>
         <a onClick={() => scrollTo("skills")}>Skills</a>
         <a onClick={() => scrollTo("projects")}>Projects</a>
         <a onClick={() => scrollTo("contact")}>Contact</a>
