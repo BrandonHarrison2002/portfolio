@@ -2,18 +2,6 @@ import "./Certifications.css";
 
 const CERTS = [
   {
-    name: "AWS Academy Graduate — Cloud Operations",
-    issuer: "Amazon Web Services (AWS)",
-    date: "Feb 2026",
-    earned: true,
-  },
-  {
-    name: "TestOut IT Fundamentals Pro",
-    issuer: "CompTIA",
-    date: "Jul 2024",
-    earned: true,
-  },
-  {
     name: "CompTIA Security+",
     issuer: "CompTIA",
     date: "Expected Jun 2026",
@@ -25,6 +13,49 @@ const CERTS = [
     date: "Expected Aug 2026",
     earned: false,
   },
+  {
+    name: "TestOut IT Fundamentals Pro",
+    issuer: "CompTIA",
+    date: "Jul 2024",
+    earned: true,
+  },
+  {
+    name: "Unity Certifed User: Programmer",
+    issuer: "Unity",
+    date: "2020",
+    earned: true,
+  },
+  {
+    name: "MTA: Introduction to Programming Using Python",
+    issuer: "Microsoft",
+    date: "2019",
+    earned: true,
+  },
+  {
+    name: "MTA: Introduction to Programming Using Java",
+    issuer: "Microsoft",
+    date: "2019",
+    earned: true,
+  },
+  {
+    name: "MTA: Introduction to Programming Using Javascript",
+    issuer: "Microsoft",
+    date: "2019",
+    earned: true,
+  },
+  {
+    name: "MTA: Introduction to Programming Using HTML and CSS",
+    issuer: "Microsoft",
+    date: "2019",
+    earned: true,
+  },
+  {
+    name: "Microsoft Office Specialist",
+    issuer: "Microsoft",
+    date: "2020",
+    earned: true,
+  },
+
 ];
 
 function Certifications() {
