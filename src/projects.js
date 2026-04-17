@@ -73,18 +73,10 @@ const projects = [
     link: "https://github.com/BrandonHarrison2002/Face",
   },
   {
-    name: "Fortnite OCR",
-    desc: "OCR tool for reading and parsing Fortnite in-game data.",
-    stack: ["Python", "OpenCV", "OCR"],
-    tag: "ml",
-    link: "https://github.com/BrandonHarrison2002/Fortnite-OCR",
-  },
-  {
     name: "Speech Detection & Recognition",
     desc: "Real-time speech detection and recognition pipeline that triggers an Arduino when it detects filler words.",
     stack: ["Python", "ML", "Arduino"],
     tag: "ml",
-    link: "https://github.com/BrandonHarrison2002/speech_recognition-tazer",
   },
   {
     name: "TensorFlow Experiments",
@@ -98,14 +90,12 @@ const projects = [
     desc: "Audio-reactive LED strip that responds to music in real-time using frequency analysis.",
     stack: ["Python", "Arduino"],
     tag: "hardware",
-    link: "https://github.com/BrandonHarrison2002/Arduino",
   },
   {
     name: "Motor Control",
     desc: "Motor control and automation project using Arduino.",
     stack: ["Arduino", "C++"],
     tag: "hardware",
-    link: "https://github.com/BrandonHarrison2002/Arduino",
   },
   // ── Other ────────────────────────────────────────────────────────────────
   {
@@ -123,13 +113,6 @@ const projects = [
     link: "https://github.com/BrandonHarrison2002/Bread",
   },
   {
-    name: "GoogleMeetWalker",
-    desc: "Automation tool that joins Google Meet classes automatically so students never miss a session.",
-    stack: ["JavaScript"],
-    tag: "fullstack",
-    link: "https://github.com/BrandonHarrison2002/GoogleMeetWalker",
-  },
-  {
     name: "Minecraft Health Monitor",
     desc: "Computer vision tool that monitors in-game health state using screen capture and OCR.",
     stack: ["Python", "OpenCV", "OCR"],
@@ -139,6 +122,12 @@ const projects = [
     name: "AnitFunValorant",
     desc: "Computer vision tool that monitors in-game state for Valorant using screen capture and OCR.",
     stack: ["Python", "OpenCV", "OCR"],
+    tag: "game",
+  },
+  {
+    name: "Disability Audio Controller",
+    desc: "A sound controller that detects where sound is coming from and displaces it",
+    stack: ["Python"],
     tag: "game",
   },
 ];
