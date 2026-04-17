@@ -18,7 +18,6 @@ const projects = [
     stack: ["Linux", "VPN", "Networking"],
     tag: "security",
   },
-
   // ── Full-stack Web ───────────────────────────────────────────────────────
   {
     name: "D&D Character Creator (MERN Stack)",
@@ -32,9 +31,15 @@ const projects = [
     desc: "Three-tier Java web application with Servlets, JSP, and JDBC on Apache Tomcat. Role-based authentication backed by MySQL.",
     stack: ["Java", "MySQL", "JSP", "Servlets", "Tomcat"],
     tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/A-Three-Tier-Distributed-Web-Based-Application",
   },
-
   // ── Security & Low-level ─────────────────────────────────────────────────
+  {
+    name: "CTF & Pentesting (Hack@UCF)",
+    desc: "Competed in 5+ CTF competitions solving cryptography, reverse engineering, and binary analysis challenges. Practiced ethical hacking on HackTheBox and TryHackMe using Nmap, Burp Suite, Wireshark, and Metasploit.",
+    stack: ["Python", "Nmap", "Burp Suite", "Wireshark", "Metasploit"],
+    tag: "security",
+  },
   {
     name: "Python Memory Injection",
     desc: "Python memory injection and manipulation experiments exploring low-level process interaction.",
@@ -59,7 +64,6 @@ const projects = [
     stack: ["Python", "Networking", "Sockets", "Arduino"],
     tag: "systems",
   },
-
   // ── ML / AI / Computer Vision ────────────────────────────────────────────
   {
     name: "Fall Detector",
@@ -72,18 +76,21 @@ const projects = [
     desc: "Face detection and recognition system using computer vision.",
     stack: ["Python", "OpenCV"],
     tag: "ml",
+    link: "https://github.com/BrandonHarrison2002/Face",
   },
   {
     name: "Fortnite OCR",
     desc: "OCR tool for reading and parsing Fortnite in-game data.",
     stack: ["Python", "OpenCV", "OCR"],
     tag: "ml",
+    link: "https://github.com/BrandonHarrison2002/Fortnite-OCR",
   },
   {
     name: "Speech Detection & Recognition",
-    desc: "Real-time speech detection and recognition pipeline with audio processing.",
-    stack: ["Python", "ML"],
+    desc: "Real-time speech detection and recognition pipeline that triggers an Arduino when it detects filler words.",
+    stack: ["Python", "ML", "Arduino"],
     tag: "ml",
+    link: "https://github.com/BrandonHarrison2002/speech_recognition-tazer",
   },
   {
     name: "TensorFlow Experiments",
@@ -91,33 +98,42 @@ const projects = [
     stack: ["Python", "TensorFlow"],
     tag: "ml",
   },
-
   // ── Hardware ─────────────────────────────────────────────────────────────
   {
     name: "LED Visualizer",
     desc: "Audio-reactive LED strip that responds to music in real-time using frequency analysis.",
     stack: ["Python", "Arduino"],
     tag: "hardware",
+    link: "https://github.com/BrandonHarrison2002/Arduino",
   },
   {
     name: "Motor Control",
     desc: "Motor control and automation project using Arduino.",
     stack: ["Arduino", "C++"],
     tag: "hardware",
+    link: "https://github.com/BrandonHarrison2002/Arduino",
   },
-
   // ── Other ────────────────────────────────────────────────────────────────
   {
     name: "Resume.github.io",
     desc: "Personal resume hosted as a GitHub Pages site.",
     stack: ["HTML", "CSS"],
     tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/Resume",
   },
   {
     name: "Discord Bot (TS & Python)",
     desc: "Discord bots built in TypeScript and Python with custom commands and automations.",
     stack: ["TypeScript", "Python", "Discord.js"],
     tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/Bread",
+  },
+  {
+    name: "GoogleMeetWalker",
+    desc: "Automation tool that joins Google Meet classes automatically so students never miss a session.",
+    stack: ["JavaScript"],
+    tag: "fullstack",
+    link: "https://github.com/BrandonHarrison2002/GoogleMeetWalker",
   },
   {
     name: "Minecraft Health Monitor",
