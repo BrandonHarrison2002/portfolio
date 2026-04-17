@@ -1,0 +1,70 @@
+.project-card {
+  background: var(--bg);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color 0.15s;
+}
+
+.project-card:hover {
+  border-color: var(--border-secondary);
+}
+
+.project-tag {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.tag-fullstack { background: #e6f1fb; color: #185fa5; }
+.tag-security  { background: #faece7; color: #993c1d; }
+.tag-hardware  { background: #eaf3de; color: #3b6d11; }
+.tag-ml        { background: #eeedfe; color: #534ab7; }
+.tag-game      { background: #faeeda; color: #854f0b; }
+.tag-systems   { background: #fbeaf0; color: #993556; }
+.tag-other     { background: var(--bg-secondary); color: var(--text-secondary); }
+
+.project-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 4px;
+}
+
+.stack-tag {
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  color: var(--text-tertiary);
+  border: 0.5px solid var(--border);
+}
+
+.project-link {
+  font-size: 12px;
+  color: var(--info-text);
+  text-decoration: none;
+  margin-top: 2px;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}

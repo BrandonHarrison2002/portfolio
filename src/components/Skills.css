@@ -1,0 +1,14 @@
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill {
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 0.5px solid var(--border);
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+}
